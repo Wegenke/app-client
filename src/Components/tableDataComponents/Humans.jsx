@@ -1,8 +1,6 @@
 import {useState, useEffect} from 'react'
 
-//ENV Variables
-let PORT = import.meta.env.VITE_FETCH_PORT || ':8080/'
-let URL = import.meta.env.VITE_FETCH_URL || '127.0.0.1'
+
 
 export default function Humans(){
   const [humanList, setHumanList] = useState([])

@@ -1,9 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useForm } from 'react-hook-form'
 // import { forms } from './AllForms'
-//ENV Variables
-let PORT = import.meta.env.VITE_FETCH_PORT || ':8080/'
-let URL = import.meta.env.VITE_FETCH_URL || '127.0.0.1'
+
 
 export default function DisplayForm({ currForm }) {
   const [humans, setHumans] = useState([])

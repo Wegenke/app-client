@@ -6,9 +6,7 @@ import Plants from '../tableDataComponents/Plants'
 import Chores from '../tableDataComponents/Chores'
 import Humans from '../tableDataComponents/Humans'
 import App from '../../App'
-//ENV Variables
-let PORT = import.meta.env.VITE_FETCH_PORT || ':8080/'
-let URL = import.meta.env.VITE_FETCH_URL || '127.0.0.1'
+
 
 export default function RouterController(){
   
